@@ -1,0 +1,53 @@
+.Logo{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    height: 10rem;
+    width: 10rem;
+}
+
+@media screen and (max-width: 58.125em){
+
+    .Logo{
+        
+        left: 73%;
+        top: 5%;
+        transform: translate(-50%, -50%);
+        
+    }
+}
+
+@media screen and (max-width: 47.9375em){
+
+    .Logo{
+        position: static;
+        margin-bottom: 3rem;
+        animation: rotator 5s linear infinite;
+        
+    }
+}
+
+
+
+.Logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+
+
+@keyframes rotator {
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

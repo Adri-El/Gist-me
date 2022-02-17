@@ -1,0 +1,44 @@
+
+
+.chat_list_item{
+    display: flex;
+    border-bottom: solid 1px #ccc;
+    padding: 1rem 0rem;
+}
+
+.chat_list_item:hover{
+    background-color: #ccc;
+}
+
+.chat_list_item:hover .chat_item_delete{
+    display: block;
+    cursor: pointer;
+}
+
+.chat_list_item_content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.chat_list_preview{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.preview_username{
+    display: inline-block;
+    
+}
+
+.chat_item_delete{
+    display: none;
+}
+
+@media screen and (hover: none){
+
+    .chat_item_delete{
+        display: block;
+    }
+}

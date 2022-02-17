@@ -1,0 +1,16 @@
+.chat_toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 3rem 2rem 0 2rem;
+}
+
+.room_name_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 3rem;
+
+}

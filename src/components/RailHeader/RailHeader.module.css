@@ -1,0 +1,40 @@
+.left_rail_header{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+}
+
+.current_user_info{
+    display: flex;
+    align-items: center;
+}
+
+.file_input{
+    display: none;
+}
+
+.empty_avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 100%;
+}
+
+.user_details{
+    margin-left: 1rem;
+}
+
+.span1{
+    display: block;
+}
+
+.sign_out{
+    cursor: pointer;
+    
+}

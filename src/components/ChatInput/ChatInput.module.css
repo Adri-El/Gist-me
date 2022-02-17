@@ -1,0 +1,46 @@
+.chat_controls{
+    
+    bottom: 2rem;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5rem;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 47.9375em){
+    .chat_controls{
+        
+        left: 5%;
+        width: 90%;
+        
+    }
+}
+
+.attachment_icon{
+    cursor: pointer;
+ 
+}
+
+.chat_input{
+    padding: 1rem 1rem;
+    flex: 1;
+    border: none;
+    height: 5rem;
+}
+
+.chat_input:focus{
+    outline: none;
+}
+
+.send_message_icon{
+    cursor: pointer;
+    
+}
+
+.file_input{
+    display: none;
+}

@@ -1,0 +1,50 @@
+.Auth{
+    position: relative;
+    font-size: 1.5rem;
+    height: 100vh;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    background-position-x: 115%;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+
+}
+
+@media screen and (max-width: 47.9375em){
+
+    .Auth{
+        position: static;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position-x: left;
+        background-position-y: top;
+    
+    } 
+}
+
+.bg1{
+    background-image: url('../../images/bg-chat.png');
+    transition: background-image 1.5s 0.5s  ease-in;
+   
+}
+
+.bg2{
+    background-image: url('../../images/bg-online-chat.png');
+    transition: background-image 1.5s 0.5s  ease-in;
+}
+
+.bg3{
+    background-image: url('../../images/bg-online-date.png');
+    transition: background-image 1.5s 0.5s  ease-in;
+}
+
+.bg4{
+    background-image: url('../../images/bg-push.png');
+    transition: background-image 1.5s 0.5s  ease-in;
+}
+
+

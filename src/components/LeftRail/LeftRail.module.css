@@ -1,0 +1,61 @@
+.LeftRail{
+    height: 100vh;
+    width: 36%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;    
+}
+
+@media screen and (max-width: 47.9375em){
+
+    .LeftRail{
+        width: 100%;
+
+    }
+
+}
+
+.leftRail_on_switch{
+    display: none;
+
+}
+
+.chat_list_container{
+    flex: 1;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.no_gist_yet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.no_gist_yet h2{
+    display: inline-block;
+    color: #2F0147;
+    word-spacing: .8rem;
+    font-family: 'Lily Script One', sans-serif;
+    font-size: 3rem;
+}
+
+.no_gist_yet img{
+    display: inline-block;
+    height: 7rem;
+    width: 7rem;
+}
+
+.create_gist_button {
+    align-self: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: 1rem; 
+    border: none;
+    background-color: #2F0147;
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    width: 40%;
+    cursor: pointer;
+    box-shadow: .5rem .5rem 1.2rem rgba(0, 0, 0, .7);
+}

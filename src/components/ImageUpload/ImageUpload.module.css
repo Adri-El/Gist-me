@@ -1,0 +1,28 @@
+.image_upload_actions{
+    background-color: purple;
+}
+
+.content{
+    color: red
+}
+
+.cancel{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 2rem;
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.submit{
+    font-size: 1.5rem;
+    display: inline;
+    background-color: green;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}

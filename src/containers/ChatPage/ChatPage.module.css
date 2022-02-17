@@ -1,0 +1,64 @@
+.chat_engine{
+    position: absolute;
+    top: -99999px;
+}
+
+
+.Chat_container{
+    display: flex;
+    height: 100vh;
+
+}
+
+
+
+.current_chat{
+    
+    width: 64%;
+    height: 100%;
+    background-color: grey;
+}
+
+@media screen and (max-width: 47.9375em){
+
+    .current_chat{
+        display: none;
+
+    }
+}
+
+.current_chat_on_switch{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: grey;       
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.padder{
+    padding: 5rem;
+    height: 2rem;
+}
+
+.no_chat_selected{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    height: 100%;
+
+    color: #2F0147;;
+    word-spacing: 1rem;
+    font-family: 'Lily Script One', sans-serif;
+}
+
+.point_left{
+    display: inline-block;
+    height: 20rem;
+    width: 20rem;
+}

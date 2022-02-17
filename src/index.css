@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+@media screen and (max-width: 47.9375em){
+
+  html{
+    font-size: 48%;
+    
+  }
+}
+
+@media screen and (max-width: 37em){
+
+  html{
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 37.3125em){
+
+  html{
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 25.4375em){
+
+  html{
+    font-size: 43%;
+  }
+}
+
+@media screen and (max-width: 20em){
+
+  html{
+    font-size: 36%;
+  }
+}
+
+
+
+body{
+  box-sizing: border-box;
+}

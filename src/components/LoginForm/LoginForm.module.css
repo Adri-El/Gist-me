@@ -1,0 +1,52 @@
+.Login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 3rem;
+    box-shadow: 0 0 2rem 2rem #ccc;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 47.9375em){
+
+    .Login_form{
+        
+        width: 80%;
+        
+    } 
+}
+
+.Login_form h1{
+    color: #2F0147;
+}
+
+.Login_form div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.Login_form input{
+    height: 4rem;
+    outline: none;
+    text-align: center;
+
+}
+
+.errorMessage{
+    color: red;
+}
+
+.Login_form p{
+    margin-top: 3rem;
+}
+
+.signupLink{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}

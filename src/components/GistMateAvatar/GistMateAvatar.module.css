@@ -1,0 +1,20 @@
+.gist_mate_avatar{
+    
+    
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 100%;
+}
+
+.empty_avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    
+    
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 100%;
+}
